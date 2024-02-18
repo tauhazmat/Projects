@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(saturn.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+@font-face{
+    font-family: LogoText;
+    src: url(SpeedyRegular-7BLoE.ttf);
+}
+@font-face{
+    font-family: MainText;
+    src: url(/Fonts/Main\ Text/);
+}
+@font-face{
+    font-family: ParagraphText;
+    src: url(/Fonts/paragraph\ text/);
+}
+nav{
+    border: 3px solid black;
+    background-color: black;
+    height: 60px;
+}
+.logo{
+    font-family: LogoText;
+    color: white;
+    margin-top: 12px;
+    margin-left: 30px;
+}
+.toplinks {
+     text-decoration: none;
+     font-family: LogoText;
+     color: white;
+     margin: 15px;
+     border: 1px solid rgb(255, 255, 255);
+     padding: 5px 15px;
+     border-radius: 4px;
+}
+.toplinks:hover {
+    padding: 8px 18px;
+    background-color: white;
+    color: black;
+}
+li {
+    display: inline;
+}
+ul{
+    float: right;
+    margin-top: -25px;
+    margin-right: 30px;
+}
+.main{
+    font-family: LogoText;
+    color: white;
+    font-size: 45px;
+    margin-top: 190px;
+    margin-left: 110px;
+}
+.mainp{
+    font-family: LogoText;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 110px;
+}
+.mainlinks{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 5px;
+    font-family: LogoText;
+    border-radius: 10px;
+}
+.mainlinks:hover{
+    background-color: white;
+    color: black;
+    transition: 0.6s ease;
+}
+.mainlinksdiv{
+    margin-top: 30px;
+    margin-left: 200px;
+}
