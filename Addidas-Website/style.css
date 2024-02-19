@@ -1,0 +1,224 @@
+/* #3233 */
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: integral;
+    src: url(Integral/Fontspring-DEMO-integralcf-heavy.otf);
+}
+@font-face {
+    font-family: visby;
+    src: url(Visby/Fontspring-DEMO-visbycf-heavy.otf);
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, black, grey);
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    height: 85px;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+header{
+    background-image: linear-gradient(to right, black, grey);
+    width: 1351px;
+    margin-top: 80px;
+}
+main{
+    background-image: url(bg.jpg);
+    background-position: center;    
+    height: 561px;
+    background-size: cover;
+    width: 1300px;
+}
+.logo{
+    width: 100px;
+    top: 0;
+    left: 0;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+.navlinksdiv{
+    justify-content: baseline;
+}
+.navlinks{
+    color: white;
+    font-family: integral;
+    margin: 10px;
+    text-decoration: none;
+}
+.navlinks:hover{
+    text-decoration: underline;
+}
+.outline{
+    /* border: 1px solid red; */
+    display: flex;
+    height: 230px;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+.main{
+    /* border: 1px solid black; */
+    margin-top: 150px;
+    margin-left: -1 5px;
+}
+.welcome{
+    font-family: integral;
+}
+.p{
+    font-family: visby;
+}
+.watch{
+    font-family: integral;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    padding: 10px 30px;
+    width: 30px;
+    height: 10px;
+    text-decoration: none;
+    font-size: 14px
+}
+.learn{
+    font-family: integral;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    padding: 10px 30px;
+    width: 30px;
+    height: 10px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.learn:hover{
+    color: black;
+    background-color: white;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+.watch:hover{
+    color: black;
+    background-color: white;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+.mlinksdiv{
+    margin-top: 25px;
+}
+.shoe1{
+    width: 380px;
+    height: 254px;
+    border-top: 10px solid black;
+    border-bottom: 30px solid black;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+}
+.imgoutline{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 70px;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.shoe2{
+    width: 381px;
+    border-top: 10px solid black;
+    border-bottom: 30px solid black;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+}
+.shoe3{
+    width: 381px;
+    height: 254px;
+    border-top: 10px solid black;
+    border-bottom: 30px solid black;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+}
+.shoe4{
+    width: 381px;
+    height: 254px;
+    border-top: 10px solid black;
+    border-bottom: 30px solid black;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+}
+.shoe5{
+    width: 381px;
+    height: 254px;
+    border-top: 10px solid black;
+    border-bottom: 30px solid black;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+}
+.shoe6{
+    width: 381px;
+    height: 254px;
+    border-top: 10px solid black;
+    border-bottom: 30px solid black;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+}
+.shoe1:hover{
+    width: 385px;
+    transition: 0.2s;
+}
+.shoe2:hover{
+    width: 386px;
+    transition: 0.2s;
+}
+.shoe3:hover{
+    width: 386px;
+    transition: 0.2s;
+}
+.shoe4:hover{
+    width: 386px;
+    transition: 0.2s;
+}
+.shoe5:hover{
+    width: 386px;
+    transition: 0.2s;
+}
+.shoe6:hover{
+    width: 386px;
+    transition: 0.2s;
+}
+.price1{
+    margin-left: 150px;
+    color: white;
+    margin-top: -28px;
+}
+.price2{
+    text-align: center;
+    color: white;
+    margin-top: -24px;
+}
+.price3{
+    margin-left: 970px;
+    color: white;
+    margin-top: -17px;
+}
+.vapourh1{
+    font-family: integral;
+    text-align: center;
+}
+.novadiv{
+    /* margin-left: 270px; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: 0 auto;
+    border: 10px double black;
+}
+.nova{
+    width: 400px;
+}
