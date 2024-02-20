@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  @font-face {
+    font-family: Integral;
+    src: url(Integral-CF/Demo_Fonts/Fontspring-DEMO-integralcf-heavy.otf);
+  }
+
+  @font-face {
+    font-family: Visby;
+    src: url(visby-cufonfonts-webfont/VisbyBold.woff);
+  }
+
+  .integral {
+    font-family: Integral;
+  }
+
+  .visby {
+    font-family: Visby;
+  }
+
+  .d-flex {
+    display: flex;
+  }
+
+  .align-item-center {
+    align-items: center;
+  }
+
+  .justify-content-evenly {
+    justify-content: space-evenly;
+  }
+
+  .justify-content-around {
+    justify-content: space-around;
+  }
+
+  .justify-content-between {
+    justify-content: space-between;
+  }
+
+  .text-decoration-none {
+    text-decoration: none;
+  }
+
+  .text-decoration-underline {
+    text-decoration: none;
+  }
+
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  .nav-bar {
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+  }
+
+  .bg-great {
+    background-image: url(Great-Wall-Of-China-1600x900.webp);
+    background-size: cover;
+    background-position: center;
+    height: 40.06em;
+    background-repeat: no-repeat;
+  }
+
+  .bg-chichen {
+    background-image: url(Chichen-Itza.png);
+    background-size: cover;
+    background-position: center;
+    height: 40.06em;
+    background-repeat: no-repeat;
+  }
+
+  .bg-petra {
+    background-image: url(Petra.png);
+    background-size: cover;
+    background-position: center;
+    height: 40.06em;
+    background-repeat: no-repeat;
+  }
+
+  .bg-machu {
+    background-image: url(machu-picchu.png);
+    background-size: cover;
+    background-position: center;
+    height: 40.06em;
+    background-repeat: no-repeat;
+  }
+
+  .bg-christ {
+    background-image: url(christ-redeemer.png);
+    background-size: cover;
+    background-position: center;
+    height: 40.06em;
+    background-repeat: no-repeat;
+  }
+
+  .bg-collosseum {
+    background-image: url(colosseum.png);
+    background-size: cover;
+    background-position: center;
+    height: 40.06em;
+    background-repeat: no-repeat;
+  }
+
+  .bg-taj {
+    background-image: url(taj-mahal.png);
+    background-size: cover;
+    background-position: center;
+    height: 40.06em;
+    background-repeat: no-repeat;
+  }
+
+  .logo-div {
+    position: relative;
+    left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 330px;
+  }
+
+  .logo {
+    text-decoration: none;
+    font-family: Integral;
+    cursor: pointer;
+    color: #000000;
+  }
+
+  .gap-5 {
+    gap: 5px;
+  }
+
+  .gap-10 {
+    gap: 10px;
+  }
+
+  .gap-15 {
+    gap: 15px;
+  }
+
+  .gap-20 {
+    gap: 20px;
+  }
+
+  .nav-links-div {
+    position: relative;
+    right: 40px;
+  }
+
+  .nav-links {
+    color: #000000;
+    font-family: Visby;
+  }
+
+  .nav-links:hover {
+    text-decoration: 3px underline;
+    transition: 0.6s;
+    translate: 0px 0px 5px 5px;
+  }
+
+  .great-div {
+    position: relative;
+    top: 280px;
+    left: 470px;
+    width: 800px;
+  }
+
+  .great {
+    color: #ffffff;
+    font-size: 80px;
+  }
+
+  .underline {
+    text-decoration: underline;
+    color: black;
+  }
+
+  .chicen-div {
+    position: relative;
+    top: 280px;
+    left: 350px;
+    width: 700px;
+  }
+
+  .petra-div {
+    position: relative;
+    top: 250px;
+    left: 550px;
+    width: 320px;
+  }
+
+  .machu-div {
+    position: relative;
+    top: 290px;
+    left: 350px;
+    width: 700px;
+  }
+
+  .christ-div {
+    position: relative;
+    top: 290px;
+    left: 100px;
+    width: 1000px;
+  }
+
+  .collosseum-div {
+    position: relative;
+    top: 290px;
+    left: 200px;
+    width: 500px;
+  }
+
+  .taj-div {
+    position: relative;
+    top: 100px;
+    left: 400px;
+    width: 600px;
+  }
+
+  /* .site-footer {
+    background-color: #26272b;
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+  }
+
+  .site-footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5
+  }
+
+  .site-footer hr.small {
+    margin: 20px 0
+  }
+
+  .site-footer h6 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px
+  }
+
+  .site-footer a {
+    color: #737373;
+  }
+
+  .site-footer a:hover {
+    color: #3366cc;
+    text-decoration: none;
+  }
+
+  .footer-links {
+    padding-left: 0;
+    list-style: none
+  }
+
+  .footer-links li {
+    display: block
+  }
+
+  .footer-links a {
+    color: #737373
+  }
+
+  .footer-links a:active,
+  .footer-links a:focus,
+  .footer-links a:hover {
+    color: #3366cc;
+    text-decoration: none;
+  }
+
+  .footer-links.inline li {
+    display: inline-block
+  }
+
+  .site-footer .social-icons {
+    text-align: right
+  }
+
+  .site-footer .social-icons a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 6px;
+    margin-right: 0;
+    border-radius: 100%;
+    background-color: #33353d
+  }
+
+  .copyright-text {
+    margin: 0
+  }
+
+  @media (max-width:991px) {
+    .site-footer [class^=col-] {
+      margin-bottom: 30px
+    }
+  }
+
+  @media (max-width:767px) {
+    .site-footer {
+      padding-bottom: 0
+    }
+
+    .site-footer .copyright-text,
+    .site-footer .social-icons {
+      text-align: center
+    }
+  }
+
+  .social-icons {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+  }
+
+  .social-icons li {
+    display: inline-block;
+    margin-bottom: 4px
+  }
+
+  .social-icons li.title {
+    margin-right: 15px;
+    text-transform: uppercase;
+    color: #96a2b2;
+    font-weight: 700;
+    font-size: 13px
+  }
+
+  .social-icons a {
+    background-color: #eceeef;
+    color: #818a91;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 44px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear
+  }
+
+  .social-icons a:active,
+  .social-icons a:focus,
+  .social-icons a:hover {
+    color: #fff;
+    background-color: #29aafe
+  }
+
+  .social-icons.size-sm a {
+    line-height: 34px;
+    height: 34px;
+    width: 34px;
+    font-size: 14px
+  }
+
+  .social-icons a.facebook:hover {
+    background-color: #3b5998
+  }
+
+  .social-icons a.twitter:hover {
+    background-color: #00aced
+  }
+
+  .social-icons a.linkedin:hover {
+    background-color: #007bb6
+  }
+
+  .social-icons a.dribbble:hover {
+    background-color: #ea4c89
+  }
+
+  @media (max-width:767px) {
+    .social-icons li.title {
+      display: block;
+      margin-right: 0;
+      font-weight: 600
+    }
+  } */
