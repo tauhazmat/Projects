@@ -388,3 +388,17 @@
       font-weight: 600
     }
   } */
+  .footer{
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    text-align: center;
+  }
+  .statement{
+    position: relative;
+    top: 15px;
+  }
+  .ftrlink{
+    color: lightblue;
+  }
