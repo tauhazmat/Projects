@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.d-flex{
+    display: flex;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width:600px){
+    .nav-bar{
+        border-right: 1px solid grey;
+        width: 50px;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        /* align-items: center; */
+        height: 500px;
+    }
+    ul{
+        list-style-type: none;
+    }
+    .nav-links-text{
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        display: none;
+    }
+    .logo{
+        width: 40px;
+        margin: 10px;
+    }
+    .explore{
+        width: 30px;
+        position: relative;
+        top: 10px;
+        left: 15px;
+    }
+    .notification{
+        width: 40px;
+        position: relative;
+        top: 25px;
+        left: 10px;
+    }
+    .message{
+        width: 35px;
+        position: relative;
+        top: 45px;
+        left: 12px;
+    }
+    .list{
+        width: 40px;
+        position: relative;
+        top: 60px;
+        left: 13px;
+    }
+    .profile{
+        width: 40px;
+        position: relative;
+        top: 65px;
+        left: 10px;
+    }
+    .top-tabs-div{
+        position: fixed;
+        top: 0px;
+        left: 60px;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid black; */
+    }
+    .for-you{
+        /* border: 1px solid lightgrey; */
+        padding: 15px 100px;
+    }
+    .following{
+        /* border: 1px solid lightgrey; */
+        padding: 15px 105px;
+    }
+    .for-you:hover,
+    .following:hover{
+        background-color: rgb(230, 227, 227);
+    }
+    .top-tabs-text{
+        text-decoration: none;
+        color: #000000;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .post-div{
+        border: 1px solid black;
+        position: relative;
+        left: 70px;
+        top: -400px;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        width: 510px;
+    }
+    .user-profile{
+        border: 1px solid grey;
+        border-radius: 100px;
+        width: 50px;
+    }
+    .pro-name{
+        position: relative;
+        top: 14px;
+        left: 5px;
+        font-family: 'Courier New', Courier, monospace;
+        width: 200px;
+        height: 20px;
+    }
+    .description{
+        position: relative;
+        top: 40px;
+        left: -193px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 250px;
+    }
+    .center{
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width:601px){
+    .nav-bar{
+        border-right: 1px solid grey;
+        width: 70px;
+        justify-content: left;
+        /* align-items: center; */
+        height: 500px;
+    }
+    ul{
+        list-style-type: none;
+    }
+    .nav-links-text{
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        top: -40px;
+        left: 50px;
+        font-size: 15px;
+        display: none;
+    }
+    .logo{
+        width: 40px;
+        margin: 10px;
+    }
+    .explore{
+        width: 30px;
+        position: relative;
+        top: 10px;
+        left: 15px;
+    }
+    .notification{
+        width: 40px;
+        position: relative;
+        top: 25px;
+        left: 10px;
+    }
+    .message{
+        width: 35px;
+        position: relative;
+        top: 45px;
+        left: 12px;
+    }
+    .list{
+        width: 40px;
+        position: relative;
+        top: 60px;
+        left: 13px;
+    }
+    .profile{
+        width: 40px;
+        position: relative;
+        top: 65px;
+        left: 10px;
+    }
+    .top-tabs-div{
+        position: fixed;
+        top: 0px;
+        left: 30px;
+        right: 0px;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid black; */
+    }
+    .for-you{
+        /* border: 1px solid lightgrey; */
+        padding: 15px 100px;
+    }
+    .following{
+        /* border: 1px solid lightgrey; */
+        padding: 15px 105px;
+    }
+    .for-you:hover,
+    .following:hover{
+        background-color: rgb(230, 227, 227);
+    }
+    .top-tabs-text{
+        text-decoration: none;
+        color: #000000;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .post-div{
+        border: 1px solid black;
+        position: relative;
+        left: 70px;
+        top: -400px;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        width: 510px;
+    }
+    .user-profile{
+        border: 1px solid grey;
+        border-radius: 100px;
+        width: 50px;
+    }
+    .pro-name{
+        position: relative;
+        top: 14px;
+        left: 5px;
+        font-family: 'Courier New', Courier, monospace;
+        width: 200px;
+        height: 20px;
+    }
+    .description{
+        position: relative;
+        top: 40px;
+        left: -193px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 250px;
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media only screen and (min-width:800px){
+    .post-div{
+        width: 470px;
+    }
+    .nav-bar{
+        width: 200px;
+    }
+    .nav-links-text{
+        display: flex;
+    }
+    .explore-text{
+        position: relative;
+        top: -15px;
+    }
+    .notification-text{
+            position: relative;
+            top: -5px;
+    }
+    .message-text{
+        position: relative;
+        top: 20px;
+    }
+    .list-text{
+        position: relative;
+        top: 24px;
+    }
+    .profile-text{
+        position: relative;
+        top: 34px;
+    }
+}
+@media only screen and (max-width:2000px){
+    .center{
+        display: flex;
+        flex-wrap: wrap;
+        width: 700px;
+        position: relative;
+        /* left: 300px; */
+        margin: 0 auto;
+        gap: 20px;
+        top: 500px;
+    }
+    .nav-bar{
+        position: fixed;
+    }
+}
+
