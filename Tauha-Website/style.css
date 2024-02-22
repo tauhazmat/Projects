@@ -1,0 +1,458 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width:1500px){
+    header {
+        background-image: url(hero.png);
+        background-size: cover;
+        height: 40em;
+        width: 85.4em;
+    }
+    
+    .logo {
+        color: #0087ca;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 35px;
+        position: relative;
+        left: 50px;
+        align-items: center;
+    }
+    
+    .nav-bar {
+        display: flex;
+        /* background: rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.18); */
+        height: 50px;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background-color: #ffffff;
+        opacity: 0.4;
+    }
+    
+    .nav-links {
+        display: inline-block;
+        position: relative;
+        color: #0087ca;
+        font-family: Arial, Helvetica, sans-serif;  
+        text-decoration: none;  
+        font-weight: bold;
+        font-size: 17px;
+        right: 150px;
+    }
+    
+    .nav-links:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 3px;
+        bottom: 0;
+        left: 0;
+        background-color: #0087ca;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+    }
+    
+    .nav-links:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+    
+    ul {
+        display: flex;
+        list-style-type: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        gap: 20px;
+    }
+    
+    .hero-text{
+        color: #ffffff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: 50px;
+        left: 350px;
+        width: 700px;
+    }
+    span{
+        color: lightgreen;
+        font-size: 70px;
+        position: relative;
+        top: 50px;
+    }
+    .explore{
+        border: 1px solid #0087ca;
+        background-color: #0087ca;
+        opacity: 0.9;
+        padding: 15px 30px;
+        color: #ffffff;
+        position: relative;
+        top: 50px;
+        left: 20px;
+        cursor: pointer;
+        font-size: 20px;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+    .hero-links{
+        display: flex;
+        position: relative;
+        gap: 20px;
+        left: 100px;
+    }
+    .explore:hover{
+        color: #ffffff;
+        background-color: transparent;
+    }
+}
+
+
+
+@media only screen and (max-width:1300px){
+    header {
+        background-image: url(hero.png);
+        background-size: cover;
+        height: 40em;
+        width: 85.4em;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .logo {
+        color: #0087ca;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 35px;
+        position: relative;
+        left: 200px;
+        align-items: center;
+    }
+    
+    .nav-bar {
+        display: flex;
+        /* background: rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.18); */
+        height: 50px;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background-color: #ffffff;
+        opacity: 0.4;
+    }
+    
+    .nav-links {
+        display: inline-block;
+        position: relative;
+        color: #0087ca;
+        font-family: Arial, Helvetica, sans-serif;  
+        text-decoration: none;  
+        font-weight: bold;
+        font-size: 17px;
+        right: 300px;
+    }
+    
+    .nav-links:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 3px;
+        bottom: 0;
+        left: 0;
+        background-color: #0087ca;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+    }
+    
+    .nav-links:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+    
+    ul {
+        display: flex;
+        list-style-type: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        gap: 20px;
+    }
+    
+    .hero-text{
+        color: #ffffff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: -150px;
+        left: 350px;
+        width: 700px;
+    }
+    span{
+        color: lightgreen;
+        font-size: 70px;
+        position: relative;
+        top: 50px;
+    }
+    .explore{
+        border: 1px solid #0087ca;
+        background-color: #0087ca;
+        opacity: 0.9;
+        padding: 15px -30px;
+        color: #ffffff;
+        position: relative;
+        top: 50px;
+        left: 20px;
+        cursor: pointer;
+        font-size: 20px;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+    .hero-links{
+        display: flex;
+        position: relative;
+        gap: 20px;
+        left: 100px;
+    }
+    .explore:hover{
+        color: #ffffff;
+        background-color: transparent;
+    }
+}
+
+
+@media only screen and (max-width:1000px){
+    header {
+        background-image: url(hero.png);
+        background-size: cover;
+        height: 40em;
+        width: 85.4em;
+    }
+    
+    .logo {
+        color: #0087ca;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 35px;
+        position: relative;
+        left: 150px;
+        align-items: center;
+    }
+    
+    .nav-bar {
+        display: flex;
+        /* background: rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.18); */
+        height: 50px;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background-color: #ffffff;
+        opacity: 0.4;
+    }
+    
+    .nav-links {
+        display: inline-block;
+        position: relative;
+        color: #0087ca;
+        font-family: Arial, Helvetica, sans-serif;  
+        text-decoration: none;  
+        font-weight: bold;
+        font-size: 17px;
+        right: 480px;
+    }
+    
+    .nav-links:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 3px;
+        bottom: 0;
+        left: 0;
+        background-color: #0087ca;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+    }
+    
+    .nav-links:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+    
+    ul {
+        display: flex;
+        list-style-type: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        gap: 20px;
+    }
+    
+    .hero-text{
+        color: #ffffff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: -150px;
+        left: 200px;
+        width: 700px;
+    }
+    span{
+        color: lightgreen;
+        font-size: 70px;
+        position: relative;
+        top: 50px;
+    }
+    .explore{
+        border: 1px solid #0087ca;
+        background-color: #0087ca;
+        opacity: 0.9;
+        padding: 15px 30px;
+        color: #ffffff;
+        position: relative;
+        top: 50px;
+        left: 20px;
+        cursor: pointer;
+        font-size: 20px;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+    .hero-links{
+        display: flex;
+        position: relative;
+        gap: 20px;
+        left: 100px;
+    }
+    .explore:hover{
+        color: #ffffff;
+        background-color: transparent;
+    }
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width:600px){
+    header {
+        background-image: url(hero.png);
+        background-size: cover;
+        height: 40em;
+        width: 85.4em;
+    }
+    
+    .logo {
+        color: #0087ca;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 35px;
+        position: relative;
+        left: 50px;
+        align-items: center;
+    }
+    
+    .nav-bar {
+        display: flex;
+        /* background: rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.18); */
+        height: 50px;
+        justify-content: center ;
+        align-items: center;
+        width: 42%;
+        background-color: #ffffff;
+        opacity: 0.4;
+    }
+    
+    .nav-links {
+        display: inline-block;
+        position: relative;
+        color: #0087ca;
+        font-family: Arial, Helvetica, sans-serif;  
+        text-decoration: none;  
+        font-weight: bold;
+        font-size: 17px;
+        right: 750px;
+        display: none;
+    }
+    
+    .nav-links:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 3px;
+        bottom: 0;
+        left: 0;
+        background-color: #0087ca;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+    }
+    
+    .nav-links:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+    
+    ul {
+        display: flex;
+        list-style-type: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        gap: 20px;
+    }
+    
+    .hero-text{
+        color: #ffffff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: 50px;
+        left: -520px;
+        width: 500px;
+    }
+    span{
+        color: lightgreen;
+        font-size: 50px;
+        position: relative;
+        top: 50px;
+    }
+    .explore{
+        border: 1px solid #0087ca;
+        background-color: #0087ca;
+        opacity: 0.9;
+        padding: 15px 30px;
+        color: #ffffff;
+        position: relative;
+        top: -100px;
+        left: -50px;
+        cursor: pointer;
+        font-size: 20px;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+    .hero-links{
+        display: flex;
+        position: relative;
+        gap: 20px;
+        left: 100px;
+    }
+    .explore:hover{
+        color: #ffffff;
+        background-color: transparent;
+    }
+}
